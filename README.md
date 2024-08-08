@@ -1,1 +1,1 @@
-# ethan-portfolio-starter
+# akos_haraga-portfolio-starter

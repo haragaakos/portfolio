@@ -1,7 +1,7 @@
-import Image from "next/image";
+
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
-import Avatar from "../components/Avatar";
+
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import Circles from '../components/Circles';
@@ -27,8 +27,8 @@ const Home = () => {
               exit="hidden"
               className="h1"
             >
-              Transforming Ideas <br /> Into{" "}
-              <span className="text-accent">Digital Reality</span>
+              Haraga Ákos <br />
+              <span className="text-accent">Full-stack Developer</span>
             </motion.h1>
             <motion.p
               variants={fadeIn("down", 0.3)}
@@ -43,15 +43,7 @@ const Home = () => {
             <div className="flex justify-center xl:hidden relative">
               <ProjectsBtn />
             </div>
-            <motion.div
-              variants={fadeIn("down", 0.4)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"
-              className="hidden xl:flex"
-            >
-              <ProjectsBtn />
-            </motion.div>
+            
           </div>
         </div>
       </div>
@@ -68,7 +60,7 @@ const Home = () => {
            transition={{duration:1, ease: 'easeInOut'}}
         className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32
         lg:bottom-0 lg:right-[8%]">
-        <Avatar/>
+        
         </motion.div>
       </div>
     </div>

@@ -24,7 +24,7 @@ module.exports = {
       colors: {
         primary: '#131424',
         secondary: '#393A47',
-        accent: '#33EEFF',
+        accent: '#8A2BE2',
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',
